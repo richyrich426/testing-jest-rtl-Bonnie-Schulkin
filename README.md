@@ -23,6 +23,13 @@ command[all]byQueryType
 - - LabelText
 - - DisplayValue
 
+### Tips
+- Use getBy when you know it will be on screen
+- Use queryBy when it will be null, using incorrect one will fail the tes
+
+### User Event
+- All methods and promises must be awaited
+
 ### Avoid
 - Test ids, user would not interact with these
 - FireEvent, prefer userEvent as its more appropriate towards real user interaction
