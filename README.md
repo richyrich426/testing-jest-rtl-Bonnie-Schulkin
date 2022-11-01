@@ -48,3 +48,6 @@ https://testing-library.com/docs/queries/about/
 
 ### Primitives
 - use toBe matcher
+
+### When you you encounter async events
+- use await and findBy instead of getAllBy as an example
