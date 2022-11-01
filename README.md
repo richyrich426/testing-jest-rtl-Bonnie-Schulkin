@@ -42,3 +42,9 @@ https://testing-library.com/docs/queries/about/#priority
 
 #### Testing library API
 https://testing-library.com/docs/queries/about/
+
+### Arrays
+- use toEqual matcher
+
+### Primitives
+- use toBe matcher
