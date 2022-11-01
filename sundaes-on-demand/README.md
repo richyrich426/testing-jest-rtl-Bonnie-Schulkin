@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Filter tests to run
+- `start test` press `w` press `p` to filter and enter a file name
+- use `test.only(...` on specific tests
+- Same as using `test.skip(...` to skip specific tests
+- `c` to clear filters
+
+### Waitfor
+Useful when awaiting multiple calls of async code
